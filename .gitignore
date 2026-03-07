@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+
+# Data
+data/
+*.csv
+*.json
+*.parquet
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Spark/Hadoop
+spark-warehouse/
+derby.log
+metastore_db/
