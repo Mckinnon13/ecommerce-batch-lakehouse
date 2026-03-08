@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: awsdatacatalog
+    schema: olist_db  # This must match your Glue Database name
+    tables:
+      - name: orders
+      - name: customers
+      # Add other tables here if your crawler found them (e.g., payments, products)
